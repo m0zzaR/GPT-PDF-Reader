@@ -14,7 +14,7 @@ while True:
     try:
         api_key = input("input api, key (if invalid, code will produce an error): ")
         if len(api_key) < 30 or len(api_key) > 128:
-            raise InvalidAPIKey("api key not correct length")
+            raise InvalidAPIKey("Api key not correct length")
         break
     except InvalidAPIKey as fnf_error:
         print(fnf_error)
