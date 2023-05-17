@@ -7,9 +7,9 @@ The information is then passed to ChatGPT-3.5-turbo (text-davinci-003). You can 
 OpenAi, LangChain and PDFMiner.six
 
 You can install these with the following CMD commands.
-'''python
+```python
 pip install openai
 pip install LangChain
 pip install PDFminer.six
-'''
+```
 If you don't already have Python you will need to do that first.
