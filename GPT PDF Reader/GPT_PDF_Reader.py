@@ -12,19 +12,19 @@ class InvalidAPIKey(Exception):
 # Asks for OpenAI API Key. Outputs error if incorrect API Key length.
 while True:
     try:
-        api_key = input("input api, key (if invalid, code will produce an error): ")
+        api_key = input("Input API, key (If invalid, code will produce an error): ")
         if len(api_key) < 30 or len(api_key) > 128:
             raise InvalidAPIKey("Api key not correct length")
         break
     except InvalidAPIKey as fnf_error:
         print(fnf_error)
 
-os.environ["openai_api_key"] = api_key
+os.environ["OPEN_API_KEY"] = api_key
 
 # Asks for directory of PDF file. Outputs error if incorrect file type or directory notation.
 while True:
     try:
-        root_dir = input("Input directory of pdf (Do not iclude quotes): ")
+        root_dir = input("Input directory of pdf (Do not include quotes): ")
         if not os.path.isfile(root_dir) or not root_dir.endswith(".pdf"):
             raise FileNotFoundError("The provided directory does not exist or is not a pdf.")
         break
