@@ -9,7 +9,7 @@ OpenAi, LangChain and PDFMiner.six
 You can install these with the following CMD commands.
 ```python
 pip install openai
-pip install LangChain
-pip install PDFminer.six
+pip install langchain
+pip install pdfminer.six
 ```
 If you don't already have Python you will need to do that first.
