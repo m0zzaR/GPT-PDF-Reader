@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GPT PDF Reader", "GPT PDF Reader\GPT PDF Reader.pyproj", "{D704F793-0232-4AB8-B781-CAF9CD2902D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D704F793-0232-4AB8-B781-CAF9CD2902D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D704F793-0232-4AB8-B781-CAF9CD2902D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8FE97DF-9EE0-424B-BC83-AC3BF3119F1E}
+	EndGlobalSection
+EndGlobal
