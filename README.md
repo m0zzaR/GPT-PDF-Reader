@@ -11,5 +11,6 @@ You can install these with the following CMD commands.
 pip install openai
 pip install langchain
 pip install pdfminer.six
+pip install faiss-cpu
 ```
 If you don't already have Python you will need to do that first.
